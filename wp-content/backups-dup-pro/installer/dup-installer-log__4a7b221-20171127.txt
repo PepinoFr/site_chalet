@@ -1,0 +1,1212 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 06:27:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 7.4.19                                |7.4.23
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.23 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.41 (Ubuntu)
+DOC ROOT____________: "/app"
+REQUEST URL_________: "https://chalets-et-caviar.zbox.ovh"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/app"
+URL_NEW_____________: "https://chalets-et-caviar.zbox.ovh"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/app/20211220_chaletsetcaviar_[HASH]_20211220171127_archive.zip"
+ARCHIVE SIZE________: 134.19MB
+CREATED_____________: 2021-12-20 17:11:27
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 4.0.5.3
+LICENSE_____________: unlicensed
+DB VERSION__________: 5.7.33
+DB FILE SIZE________: 7.75MB
+DB TABLES___________: 89
+DB ROWS_____________: 3549
+URL HOME____________: http://chalets-et-caviar.local
+URL CORE____________: http://chalets-et-caviar.local
+URL CONTENT_________: http://chalets-et-caviar.local/wp-content
+URL UPLOAD__________: http://chalets-et-caviar.local/wp-content/uploads
+URL PLUGINS_________: http://chalets-et-caviar.local/wp-content/plugins
+URL MU PLUGINS______: http://chalets-et-caviar.local/wp-content/mu-plugins
+URL THEMES__________: http://chalets-et-caviar.local/wp-content/themes
+PATH HOME___________: C:/laragon/www/Chalets-et-caviar
+PATH ABS____________: C:/laragon/www/Chalets-et-caviar
+PATH WPCONFIG_______: C:/laragon/www/Chalets-et-caviar
+PATH WPCONTENT______: C:/laragon/www/Chalets-et-caviar/wp-content
+PATH UPLOADS________: C:/laragon/www/Chalets-et-caviar/wp-content/uploads
+PATH PLUGINS________: C:/laragon/www/Chalets-et-caviar/wp-content/plugins
+PATH MUPLUGINS______: C:/laragon/www/Chalets-et-caviar/wp-content/mu-plugins
+PATH THEMES_________: C:/laragon/www/Chalets-et-caviar/wp-content/themes
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ]  Advanced Custom Fields
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam
+PLUGIN [SLUG:woo-bulk-editor/index.php                         ][ON:true ]  BEAR – Bulk Editor and Products Manager Professional for WooCommerce
+PLUGIN [SLUG:child-theme-configurator/child-theme-configurator.php][ON:true ]  Child Theme Configurator
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:false]  Classic Editor
+PLUGIN [SLUG:clever-fox/clever-fox.php                         ][ON:true ]  Clever Fox
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:estatik/estatik.php                               ][ON:true ]  Estatik
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:loco-translate/loco.php                           ][ON:true ]  Loco Translate
+PLUGIN [SLUG:mappress-google-maps-for-wordpress/mappress.php   ][ON:true ]  MapPress Maps for WordPress
+PLUGIN [SLUG:polylang/polylang.php                             ][ON:true ]  Polylang
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:false]  WooCommerce
+
+********************************************************************************
+LOG-TIME[/app/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.20539]  MESSAGE:END RENDER PAGE
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/app/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.11112]  MESSAGE:END RENDER PAGE
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery URL" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00089]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.03070]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+LOG-TIME[DELTA:   0.01593]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01037]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs Files Permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Configs Files Permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name Check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Host Name Check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01235]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.01069]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00505]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05511]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Test User Resources" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00207]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00459]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check MySQL Engine support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00056]  MESSAGE:TEST "Check MySQL Engine support" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00154]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:30:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Chalets et caviar"
+HOME URL NEW________: "https://chalets-et-caviar.zbox.ovh"
+SITE URL NEW________: "https://chalets-et-caviar.zbox.ovh"
+CONTENT URL NEW_____: "https://chalets-et-caviar.zbox.ovh/wp-content"
+UPLOAD URL NEW______: "https://chalets-et-caviar.zbox.ovh/wp-content/uploads"
+PLUGINS URL NEW_____: "https://chalets-et-caviar.zbox.ovh/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://chalets-et-caviar.zbox.ovh/wp-content/mu-plugins"
+HOME PATH NEW_______: "/app"
+SITE PATH NEW_______: "/app"
+CONTENT PATH NEW____: "/app/wp-content"
+UPLOAD PATH NEW_____: "/app/wp-content/uploads"
+PLUGINS PATH NEW____: "/app/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/app/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/app/dup-installer"
+	FILE: "/app/20211220_chaletsetcaviar_[HASH]_20211220171127_installer-backup.php"
+	FILE: "/app/20211220_chaletsetcaviar_[HASH]_20211220171127_archive.zip"
+	FILE: "/app/installer.php"
+	FILE: "/app/dup-installer-bootlog__4a7b221-20171127.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20211220_chaletsetcaviar_[HASH]_20211220171127_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0056 sec. - Files processed: 6,878 of 12,778
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6878
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0082 sec. - Files processed: 10,745 of 12,778
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10745
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0143 sec. - Files processed: 11,090 of 12,778
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11090
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 13404
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 06:31:15 - RUNTIME: 18.2252 sec. - Files processed: 12,778 of 12,778
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 06:31:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+KEEP USERS__________: 0
+CONTENT OWNER_______: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     110] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_address_components"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_address_components]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_dopbsp_api_keys"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_api_keys]
+TABLE "wp_dopbsp_availability"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_availability]
+TABLE "wp_dopbsp_availability_no"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_availability_no]
+TABLE "wp_dopbsp_availability_price"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_availability_price]
+TABLE "wp_dopbsp_calendars"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_calendars]
+TABLE "wp_dopbsp_coupons"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_coupons]
+TABLE "wp_dopbsp_days"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_days]
+TABLE "wp_dopbsp_discounts"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_discounts]
+TABLE "wp_dopbsp_discounts_items"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_discounts_items]
+TABLE "wp_dopbsp_discounts_items_rules"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_discounts_items_rules]
+TABLE "wp_dopbsp_emails"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_emails]
+TABLE "wp_dopbsp_emails_translation"____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_emails_translation]
+TABLE "wp_dopbsp_extras"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_extras]
+TABLE "wp_dopbsp_extras_groups"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_extras_groups]
+TABLE "wp_dopbsp_extras_groups_items"___________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_extras_groups_items]
+TABLE "wp_dopbsp_fees"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_fees]
+TABLE "wp_dopbsp_forms"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_forms]
+TABLE "wp_dopbsp_forms_fields"__________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_forms_fields]
+TABLE "wp_dopbsp_forms_select_options"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_forms_select_options]
+TABLE "wp_dopbsp_languages"_____________________________[ROWS:      56] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_languages]
+TABLE "wp_dopbsp_locations"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_locations]
+TABLE "wp_dopbsp_models"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_models]
+TABLE "wp_dopbsp_reservations"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_reservations]
+TABLE "wp_dopbsp_rules"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_rules]
+TABLE "wp_dopbsp_searches"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_searches]
+TABLE "wp_dopbsp_settings"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_settings]
+TABLE "wp_dopbsp_settings_calendar"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_settings_calendar]
+TABLE "wp_dopbsp_settings_notifications"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_settings_notifications]
+TABLE "wp_dopbsp_settings_payment"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_settings_payment]
+TABLE "wp_dopbsp_settings_search"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_settings_search]
+TABLE "wp_dopbsp_smses"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_smses]
+TABLE "wp_dopbsp_smses_translation"_____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_smses_translation]
+TABLE "wp_dopbsp_translation_en"________________________[ROWS:    1827] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_translation_en]
+TABLE "wp_dopbsp_woocommerce"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_dopbsp_woocommerce]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_fbuilder_fields"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_fbuilder_fields]
+TABLE "wp_fbuilder_fields_order"________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_fbuilder_fields_order]
+TABLE "wp_fbuilder_sections"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_fbuilder_sections]
+TABLE "wp_fbuilder_sections_order"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_fbuilder_sections_order]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_mappress_maps"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_mappress_maps]
+TABLE "wp_mappress_posts"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_mappress_posts]
+TABLE "wp_options"______________________________________[ROWS:     510] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:     554] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     139] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_term_relationships"___________________________[ROWS:      76] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:      55] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woobe_history"________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woobe_history]
+TABLE "wp_woobe_history_bulk"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woobe_history_bulk]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.26 -- Build Server: 5.7.33
+FILE SIZE:	dup-database__[HASH].sql (1.98MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP  ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+QUERY FIXES Array
+(
+    [search] => Array
+        (
+            [0] => /\xC2\xA0/
+            [1] => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+            [2] => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+        )
+
+    [replace] => Array
+        (
+            [0] =>  
+            [1] => $1`chalet-et-caviar`@`localhost`$3
+            [2] => $1SQL SECURITY INVOKER
+$2$3
+        )
+
+)
+
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2032424
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+QUERY FIXES Array
+(
+    [search] => Array
+        (
+            [0] => /\xC2\xA0/
+            [1] => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+            [2] => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+        )
+
+    [replace] => Array
+        (
+            [0] =>  
+            [1] => $1`chalet-et-caviar`@`localhost`$3
+            [2] => $1SQL SECURITY INVOKER
+$2$3
+        )
+
+)
+
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+CLEAN PACKAGES
+CLEAN EXTRA
+/t - SKIP DROP VIEWS
+/t - SKIP DROP PROCS
+/t - SKIP DROP FUNCS
+CLEAN OPTIONS [wp_options]Array
+(
+    [0] => `option_name` LIKE "\_transient%"
+    [1] => `option_name` LIKE "\_site\_transient%"
+    [2] => `option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+)
+
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	145
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    38]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     4]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   110]
+TABLE "wp_address_components"___________________________[ROWS:     0]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_dopbsp_api_keys"______________________________[ROWS:     0]
+TABLE "wp_dopbsp_availability"__________________________[ROWS:     0]
+TABLE "wp_dopbsp_availability_no"_______________________[ROWS:     0]
+TABLE "wp_dopbsp_availability_price"____________________[ROWS:     0]
+TABLE "wp_dopbsp_calendars"_____________________________[ROWS:     1]
+TABLE "wp_dopbsp_coupons"_______________________________[ROWS:     0]
+TABLE "wp_dopbsp_days"__________________________________[ROWS:     0]
+TABLE "wp_dopbsp_discounts"_____________________________[ROWS:     0]
+TABLE "wp_dopbsp_discounts_items"_______________________[ROWS:     0]
+TABLE "wp_dopbsp_discounts_items_rules"_________________[ROWS:     0]
+TABLE "wp_dopbsp_emails"________________________________[ROWS:     1]
+TABLE "wp_dopbsp_emails_translation"____________________[ROWS:     7]
+TABLE "wp_dopbsp_extras"________________________________[ROWS:     1]
+TABLE "wp_dopbsp_extras_groups"_________________________[ROWS:     2]
+TABLE "wp_dopbsp_extras_groups_items"___________________[ROWS:     9]
+TABLE "wp_dopbsp_fees"__________________________________[ROWS:     0]
+TABLE "wp_dopbsp_forms"_________________________________[ROWS:     1]
+TABLE "wp_dopbsp_forms_fields"__________________________[ROWS:     5]
+TABLE "wp_dopbsp_forms_select_options"__________________[ROWS:     0]
+TABLE "wp_dopbsp_languages"_____________________________[ROWS:    56]
+TABLE "wp_dopbsp_locations"_____________________________[ROWS:     1]
+TABLE "wp_dopbsp_models"________________________________[ROWS:     0]
+TABLE "wp_dopbsp_reservations"__________________________[ROWS:     0]
+TABLE "wp_dopbsp_rules"_________________________________[ROWS:     0]
+TABLE "wp_dopbsp_searches"______________________________[ROWS:     0]
+TABLE "wp_dopbsp_settings"______________________________[ROWS:     0]
+TABLE "wp_dopbsp_settings_calendar"_____________________[ROWS:     0]
+TABLE "wp_dopbsp_settings_notifications"________________[ROWS:     0]
+TABLE "wp_dopbsp_settings_payment"______________________[ROWS:     0]
+TABLE "wp_dopbsp_settings_search"_______________________[ROWS:     0]
+TABLE "wp_dopbsp_smses"_________________________________[ROWS:     1]
+TABLE "wp_dopbsp_smses_translation"_____________________[ROWS:     7]
+TABLE "wp_dopbsp_translation_en"________________________[ROWS:  1827]
+TABLE "wp_dopbsp_woocommerce"___________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_fbuilder_fields"______________________________[ROWS:     0]
+TABLE "wp_fbuilder_fields_order"________________________[ROWS:    11]
+TABLE "wp_fbuilder_sections"____________________________[ROWS:     0]
+TABLE "wp_fbuilder_sections_order"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_mappress_maps"________________________________[ROWS:     1]
+TABLE "wp_mappress_posts"_______________________________[ROWS:     1]
+TABLE "wp_options"______________________________________[ROWS:   468]
+TABLE "wp_postmeta"_____________________________________[ROWS:   554]
+TABLE "wp_posts"________________________________________[ROWS:   139]
+TABLE "wp_term_relationships"___________________________[ROWS:    76]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    34]
+TABLE "wp_termmeta"_____________________________________[ROWS:    18]
+TABLE "wp_terms"________________________________________[ROWS:    34]
+TABLE "wp_usermeta"_____________________________________[ROWS:    55]
+TABLE "wp_users"________________________________________[ROWS:     2]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    34]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    32]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     5]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     3]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woobe_history"________________________________[ROWS:     2]
+TABLE "wp_woobe_history_bulk"___________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     3]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:     4]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    43]
+
+INSERT DATA RUNTIME: 5.5206 sec.
+STEP-2 COMPLETE @ 06:31:21 - RUNTIME: 5.5206 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+====================================
+ACTION INSTALL TYPE single site START
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:31:21
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+url_old_______________: "http://chalets-et-caviar.local"
+url_new_______________: "https://chalets-et-caviar.zbox.ovh"
+siteurl_______________: "https://chalets-et-caviar.zbox.ovh"
+path_new______________: "/app"
+path_old______________: "C:/laragon/www/Chalets-et-caviar"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   110][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_address_components"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_dopbsp_api_keys"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_availability"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_availability_no"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_availability_price"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_calendars"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_calendars][0]
+
+EVALUATE TABLE: "wp_dopbsp_coupons"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_days"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_discounts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_discounts_items"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_discounts_items_rules"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_emails"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_emails][0]
+
+EVALUATE TABLE: "wp_dopbsp_emails_translation"____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_emails_translation][0]
+
+EVALUATE TABLE: "wp_dopbsp_extras"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_extras][0]
+
+EVALUATE TABLE: "wp_dopbsp_extras_groups"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_extras_groups][0]
+
+EVALUATE TABLE: "wp_dopbsp_extras_groups_items"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_extras_groups_items][0]
+
+EVALUATE TABLE: "wp_dopbsp_fees"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_forms"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_forms][0]
+
+EVALUATE TABLE: "wp_dopbsp_forms_fields"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_forms_fields][0]
+
+EVALUATE TABLE: "wp_dopbsp_forms_select_options"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_languages"_____________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_languages][0]
+
+EVALUATE TABLE: "wp_dopbsp_locations"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_locations][0]
+
+EVALUATE TABLE: "wp_dopbsp_models"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_reservations"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_rules"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_searches"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_settings"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_settings_calendar"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_settings_notifications"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_settings_payment"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_settings_search"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_dopbsp_smses"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_smses][0]
+
+EVALUATE TABLE: "wp_dopbsp_smses_translation"_____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_smses_translation][0]
+
+EVALUATE TABLE: "wp_dopbsp_translation_en"________________________[ROWS:  1827][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_translation_en][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_dopbsp_translation_en][1]
+
+EVALUATE TABLE: "wp_dopbsp_woocommerce"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fbuilder_fields"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fbuilder_fields_order"________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_fbuilder_fields_order][0]
+
+EVALUATE TABLE: "wp_fbuilder_sections"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fbuilder_sections_order"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mappress_maps"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_mappress_maps][0]
+
+EVALUATE TABLE: "wp_mappress_posts"_______________________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   468][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   554][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   139][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    76][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     5][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woobe_history"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_woobe_history][0]
+
+EVALUATE TABLE: "wp_woobe_history_bulk"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/laragon/www/Chalets-et-caviar" ================> "/app"
+	SEARCH[urlnd]  2:"http://chalets-et-caviar.local" ==================> "https://chalets-et-caviar.zbox.ovh"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:89 	|	 Rows:3474 	|	 Cells:21477 
+UPDATED:	Tables:5 	|	 Rows:150 	|	 Cells:161 
+ERRORS:		0 
+RUNTIME:	3.008000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/app/wp-config.php
+New htaccess file created:/app/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_HOME "https://chalets-et-caviar.zbox.ovh"
+	UPDATE WP_SITEURL "https://chalets-et-caviar.zbox.ovh"
+	UPDATE DB_NAME ""chalets-et-caviar""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/app"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:31:24 - RUNTIME: 3.1728 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/app/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/app/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.05472]  MESSAGE:END RENDER PAGE

@@ -1,0 +1,33 @@
+[Dec 20 18:27:06] 
+[Dec 20 18:27:06] ==DUPLICATOR INSTALLER BOOTSTRAP v4.0.5.3==
+[Dec 20 18:27:06] ----------------------------------------------------
+[Dec 20 18:27:06] Installer bootstrap start
+[Dec 20 18:27:06] Manual extract found so not going to extract dup-installer dir
+[Dec 20 18:27:06] EXTRACT dup-installer dir
+[Dec 20 18:27:06] Successfully deleted the file /app/dup-installer/dup-installer-log__[HASH].txt
+[Dec 20 18:27:06] ERROR: Didn't need to extract the installer.
+[Dec 20 18:27:06] Set permissions of dup-installer<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/addons<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/api<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/assets<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/classes<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/ctrls<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/favicon<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/lib<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/libs<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/src<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/templates<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/vendor<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-database__[HASH].sql<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-installer-notices__[HASH].json<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-params__[HASH].json<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/index.php<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/main.installer.php<br/>
+[Dec 20 18:27:06] Set permissions of dup-installer/php_error__[HASH].log<br/>
+[Dec 20 18:27:06] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://chalets-et-caviar.zbox.ovh/dup-installer/main.installer.php

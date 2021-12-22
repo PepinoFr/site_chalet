@@ -1,0 +1,13 @@
+2021-12-09T17:17:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in C:\laragon\www\Chalets-et-caviar\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in C:\laragon\www\Chalets-et-caviar\wp-content\themes\chalet-et-caviar-child\functions.php:34
+Stack trace:
+#0 C:\laragon\www\Chalets-et-caviar\wp-includes\class-wp-hook.php(305): {closure}('<a href="?add-t...')
+#1 C:\laragon\www\Chalets-et-caviar\wp-includes\plugin.php(189): WP_Hook->apply_filters('<a href="?add-t...', Array)
+#2 C:\laragon\www\Chalets-et-caviar\wp-content\plugins\woocommerce\templates\loop\add-to-cart.php(35): apply_filters('woocommerce_loo...', '<a href="?add-t...', Object(WC_Product_Simple), Array)
+#3 C:\laragon\www\Chalets-et-caviar\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\Chalets-et-caviar\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1356): wc_get_template('loop/add-to-car...', Array)
+#5 C:\laragon\www\Chalets-et dans C:\laragon\www\Chalets-et-caviar\wp-content\themes\chalet-et-caviar-child\functions.php à la ligne 34
+
+2021-12-09T17:19:40+00:00 CRITICAL syntax error, unexpected ';' dans C:\laragon\www\Chalets-et-caviar\wp-content\themes\chalet-et-caviar-child\functions.php à la ligne 38
+
+2021-12-09T17:19:40+00:00 CRITICAL syntax error, unexpected ';' dans C:\laragon\www\Chalets-et-caviar\wp-content\themes\chalet-et-caviar-child\functions.php à la ligne 38
+
